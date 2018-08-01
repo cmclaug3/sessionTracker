@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1D3B5F20F664EF0089D600 /* AddClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D3B5E20F664EF0089D600 /* AddClient.swift */; };
 		3E851B5020D2F0B200CEFEC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B4F20D2F0B200CEFEC4 /* AppDelegate.swift */; };
-		3E851B5220D2F0B200CEFEC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B5120D2F0B200CEFEC4 /* ViewController.swift */; };
 		3E851B5520D2F0B200CEFEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E851B5320D2F0B200CEFEC4 /* Main.storyboard */; };
-		3E851B5820D2F0B200CEFEC4 /* RealTableViewPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B5620D2F0B200CEFEC4 /* RealTableViewPractice.xcdatamodeld */; };
 		3E851B5A20D2F0B200CEFEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E851B5920D2F0B200CEFEC4 /* Assets.xcassets */; };
 		3E851B5D20D2F0B200CEFEC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E851B5B20D2F0B200CEFEC4 /* LaunchScreen.storyboard */; };
 		3E851B6820D2F0B200CEFEC4 /* RealTableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B6720D2F0B200CEFEC4 /* RealTableViewPracticeTests.swift */; };
 		3E851B7320D2F0B200CEFEC4 /* RealTableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B7220D2F0B200CEFEC4 /* RealTableViewPracticeUITests.swift */; };
+		3E851B8120D2F9AA00CEFEC4 /* ClientListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B8020D2F9AA00CEFEC4 /* ClientListScreen.swift */; };
+		3E851B8320D2FC8700CEFEC4 /* ClientListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B8220D2FC8700CEFEC4 /* ClientListCell.swift */; };
+		3E851B8520D3015300CEFEC4 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B8420D3015300CEFEC4 /* Client.swift */; };
+		3EEB942A20D34C4F0017606B /* ClientDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB942920D34C4F0017606B /* ClientDetail.swift */; };
+		64E3135BDF020C79199C8075 /* Pods_RealTableViewPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148AD56EA66723F864EA7C03 /* Pods_RealTableViewPractice.framework */; };
+		699864F893C477B7D666EE8E /* Pods_RealTableViewPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10EA30AAB8A5E1D912085E1 /* Pods_RealTableViewPracticeTests.framework */; };
+		7BAF89FF6736F29A8D80ACAD /* Pods_RealTableViewPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB5A5FFEEB7B7BE0831CBB7 /* Pods_RealTableViewPracticeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		148AD56EA66723F864EA7C03 /* Pods_RealTableViewPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTableViewPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5AD3B8B6770D3964DE5AAA /* Pods-RealTableViewPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTableViewPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTableViewPractice/Pods-RealTableViewPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		3E1D3B5E20F664EF0089D600 /* AddClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClient.swift; sourceTree = "<group>"; };
 		3E851B4C20D2F0B200CEFEC4 /* RealTableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E851B4F20D2F0B200CEFEC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E851B5120D2F0B200CEFEC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E851B5420D2F0B200CEFEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E851B5720D2F0B200CEFEC4 /* RealTableViewPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RealTableViewPractice.xcdatamodel; sourceTree = "<group>"; };
 		3E851B5920D2F0B200CEFEC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E851B5C20D2F0B200CEFEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E851B5E20D2F0B200CEFEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		3E851B6E20D2F0B200CEFEC4 /* RealTableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E851B7220D2F0B200CEFEC4 /* RealTableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		3E851B7420D2F0B200CEFEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E851B8020D2F9AA00CEFEC4 /* ClientListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientListScreen.swift; sourceTree = "<group>"; };
+		3E851B8220D2FC8700CEFEC4 /* ClientListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientListCell.swift; sourceTree = "<group>"; };
+		3E851B8420D3015300CEFEC4 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		3EEB942920D34C4F0017606B /* ClientDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetail.swift; sourceTree = "<group>"; };
+		789C222D7E1C710E17A21878 /* Pods-RealTableViewPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTableViewPracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTableViewPracticeUITests/Pods-RealTableViewPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B26C3A484F6229B5AAF610D0 /* Pods-RealTableViewPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTableViewPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTableViewPractice/Pods-RealTableViewPractice.release.xcconfig"; sourceTree = "<group>"; };
+		C7B19EB96FDF424A2ACA55AA /* Pods-RealTableViewPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTableViewPracticeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTableViewPracticeUITests/Pods-RealTableViewPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFB5A5FFEEB7B7BE0831CBB7 /* Pods_RealTableViewPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTableViewPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10EA30AAB8A5E1D912085E1 /* Pods_RealTableViewPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTableViewPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75F4B45D65C021D09053441 /* Pods-RealTableViewPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTableViewPracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTableViewPracticeTests/Pods-RealTableViewPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7DB7F9C9B636D1A5DEB70C3 /* Pods-RealTableViewPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTableViewPracticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTableViewPracticeTests/Pods-RealTableViewPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E3135BDF020C79199C8075 /* Pods_RealTableViewPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699864F893C477B7D666EE8E /* Pods_RealTableViewPracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BAF89FF6736F29A8D80ACAD /* Pods_RealTableViewPracticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				3E851B6620D2F0B200CEFEC4 /* RealTableViewPracticeTests */,
 				3E851B7120D2F0B200CEFEC4 /* RealTableViewPracticeUITests */,
 				3E851B4D20D2F0B200CEFEC4 /* Products */,
+				7F51C73ACC0C423A6C3CF45D /* Pods */,
+				D53620DD7FA3FD4812EF05D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				3E851B4F20D2F0B200CEFEC4 /* AppDelegate.swift */,
-				3E851B5120D2F0B200CEFEC4 /* ViewController.swift */,
+				3E851B8020D2F9AA00CEFEC4 /* ClientListScreen.swift */,
+				3E851B8220D2FC8700CEFEC4 /* ClientListCell.swift */,
+				3EEB942920D34C4F0017606B /* ClientDetail.swift */,
+				3E851B8420D3015300CEFEC4 /* Client.swift */,
+				3E1D3B5E20F664EF0089D600 /* AddClient.swift */,
 				3E851B5320D2F0B200CEFEC4 /* Main.storyboard */,
 				3E851B5920D2F0B200CEFEC4 /* Assets.xcassets */,
 				3E851B5B20D2F0B200CEFEC4 /* LaunchScreen.storyboard */,
 				3E851B5E20D2F0B200CEFEC4 /* Info.plist */,
-				3E851B5620D2F0B200CEFEC4 /* RealTableViewPractice.xcdatamodeld */,
 			);
 			path = RealTableViewPractice;
 			sourceTree = "<group>";
@@ -128,6 +154,29 @@
 			path = RealTableViewPracticeUITests;
 			sourceTree = "<group>";
 		};
+		7F51C73ACC0C423A6C3CF45D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C5AD3B8B6770D3964DE5AAA /* Pods-RealTableViewPractice.debug.xcconfig */,
+				B26C3A484F6229B5AAF610D0 /* Pods-RealTableViewPractice.release.xcconfig */,
+				F7DB7F9C9B636D1A5DEB70C3 /* Pods-RealTableViewPracticeTests.debug.xcconfig */,
+				F75F4B45D65C021D09053441 /* Pods-RealTableViewPracticeTests.release.xcconfig */,
+				789C222D7E1C710E17A21878 /* Pods-RealTableViewPracticeUITests.debug.xcconfig */,
+				C7B19EB96FDF424A2ACA55AA /* Pods-RealTableViewPracticeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D53620DD7FA3FD4812EF05D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				148AD56EA66723F864EA7C03 /* Pods_RealTableViewPractice.framework */,
+				F10EA30AAB8A5E1D912085E1 /* Pods_RealTableViewPracticeTests.framework */,
+				CFB5A5FFEEB7B7BE0831CBB7 /* Pods_RealTableViewPracticeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E851B7720D2F0B200CEFEC4 /* Build configuration list for PBXNativeTarget "RealTableViewPractice" */;
 			buildPhases = (
+				AAE7837EE481C3F54A32DC81 /* [CP] Check Pods Manifest.lock */,
 				3E851B4820D2F0B200CEFEC4 /* Sources */,
 				3E851B4920D2F0B200CEFEC4 /* Frameworks */,
 				3E851B4A20D2F0B200CEFEC4 /* Resources */,
+				56CEFAE5162C9840DB865254 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E851B7A20D2F0B200CEFEC4 /* Build configuration list for PBXNativeTarget "RealTableViewPracticeTests" */;
 			buildPhases = (
+				49D44044492511773C02B1B7 /* [CP] Check Pods Manifest.lock */,
 				3E851B5F20D2F0B200CEFEC4 /* Sources */,
 				3E851B6020D2F0B200CEFEC4 /* Frameworks */,
 				3E851B6120D2F0B200CEFEC4 /* Resources */,
@@ -170,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E851B7D20D2F0B200CEFEC4 /* Build configuration list for PBXNativeTarget "RealTableViewPracticeUITests" */;
 			buildPhases = (
+				64496A4E01B4EFE5898EFC29 /* [CP] Check Pods Manifest.lock */,
 				3E851B6A20D2F0B200CEFEC4 /* Sources */,
 				3E851B6B20D2F0B200CEFEC4 /* Frameworks */,
 				3E851B6C20D2F0B200CEFEC4 /* Resources */,
@@ -257,14 +310,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49D44044492511773C02B1B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTableViewPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56CEFAE5162C9840DB865254 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealTableViewPractice/Pods-RealTableViewPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTableViewPractice/Pods-RealTableViewPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64496A4E01B4EFE5898EFC29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTableViewPracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE7837EE481C3F54A32DC81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTableViewPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E851B4820D2F0B200CEFEC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E851B5220D2F0B200CEFEC4 /* ViewController.swift in Sources */,
+				3E851B8120D2F9AA00CEFEC4 /* ClientListScreen.swift in Sources */,
+				3E1D3B5F20F664EF0089D600 /* AddClient.swift in Sources */,
+				3EEB942A20D34C4F0017606B /* ClientDetail.swift in Sources */,
 				3E851B5020D2F0B200CEFEC4 /* AppDelegate.swift in Sources */,
-				3E851B5820D2F0B200CEFEC4 /* RealTableViewPractice.xcdatamodeld in Sources */,
+				3E851B8320D2FC8700CEFEC4 /* ClientListCell.swift in Sources */,
+				3E851B8520D3015300CEFEC4 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +561,7 @@
 		};
 		3E851B7820D2F0B200CEFEC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C5AD3B8B6770D3964DE5AAA /* Pods-RealTableViewPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +576,7 @@
 		};
 		3E851B7920D2F0B200CEFEC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26C3A484F6229B5AAF610D0 /* Pods-RealTableViewPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +591,7 @@
 		};
 		3E851B7B20D2F0B200CEFEC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DB7F9C9B636D1A5DEB70C3 /* Pods-RealTableViewPracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +608,7 @@
 		};
 		3E851B7C20D2F0B200CEFEC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75F4B45D65C021D09053441 /* Pods-RealTableViewPracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +625,7 @@
 		};
 		3E851B7E20D2F0B200CEFEC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789C222D7E1C710E17A21878 /* Pods-RealTableViewPracticeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +641,7 @@
 		};
 		3E851B7F20D2F0B200CEFEC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B19EB96FDF424A2ACA55AA /* Pods-RealTableViewPracticeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,19 +695,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3E851B5620D2F0B200CEFEC4 /* RealTableViewPractice.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3E851B5720D2F0B200CEFEC4 /* RealTableViewPractice.xcdatamodel */,
-			);
-			currentVersion = 3E851B5720D2F0B200CEFEC4 /* RealTableViewPractice.xcdatamodel */;
-			path = RealTableViewPractice.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3E851B4420D2F0B200CEFEC4 /* Project object */;
 }

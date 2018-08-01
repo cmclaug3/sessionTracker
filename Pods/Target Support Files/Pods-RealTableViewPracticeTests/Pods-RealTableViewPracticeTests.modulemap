@@ -1,0 +1,6 @@
+framework module Pods_RealTableViewPracticeTests {
+  umbrella header "Pods-RealTableViewPracticeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
