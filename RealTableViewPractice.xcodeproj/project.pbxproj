@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E1D3B5F20F664EF0089D600 /* AddClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D3B5E20F664EF0089D600 /* AddClient.swift */; };
+		3E5B7ED6211272DD00BAA9BC /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B7ED5211272DD00BAA9BC /* DBManager.swift */; };
 		3E851B5020D2F0B200CEFEC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851B4F20D2F0B200CEFEC4 /* AppDelegate.swift */; };
 		3E851B5520D2F0B200CEFEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E851B5320D2F0B200CEFEC4 /* Main.storyboard */; };
 		3E851B5A20D2F0B200CEFEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E851B5920D2F0B200CEFEC4 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		148AD56EA66723F864EA7C03 /* Pods_RealTableViewPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTableViewPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5AD3B8B6770D3964DE5AAA /* Pods-RealTableViewPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTableViewPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTableViewPractice/Pods-RealTableViewPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		3E1D3B5E20F664EF0089D600 /* AddClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClient.swift; sourceTree = "<group>"; };
+		3E5B7ED5211272DD00BAA9BC /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		3E851B4C20D2F0B200CEFEC4 /* RealTableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E851B4F20D2F0B200CEFEC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E851B5420D2F0B200CEFEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				3E851B8220D2FC8700CEFEC4 /* ClientListCell.swift */,
 				3EEB942920D34C4F0017606B /* ClientDetail.swift */,
 				3E851B8420D3015300CEFEC4 /* Client.swift */,
+				3E5B7ED5211272DD00BAA9BC /* DBManager.swift */,
 				3E1D3B5E20F664EF0089D600 /* AddClient.swift */,
 				3E851B5320D2F0B200CEFEC4 /* Main.storyboard */,
 				3E851B5920D2F0B200CEFEC4 /* Assets.xcassets */,
@@ -394,6 +397,7 @@
 			files = (
 				3E851B8120D2F9AA00CEFEC4 /* ClientListScreen.swift in Sources */,
 				3E1D3B5F20F664EF0089D600 /* AddClient.swift in Sources */,
+				3E5B7ED6211272DD00BAA9BC /* DBManager.swift in Sources */,
 				3EEB942A20D34C4F0017606B /* ClientDetail.swift in Sources */,
 				3E851B5020D2F0B200CEFEC4 /* AppDelegate.swift in Sources */,
 				3E851B8320D2FC8700CEFEC4 /* ClientListCell.swift in Sources */,

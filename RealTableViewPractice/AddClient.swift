@@ -19,6 +19,8 @@ class AddClient: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+
     }
 
     @IBAction func sliderValueChange(_ sender: UISlider) {

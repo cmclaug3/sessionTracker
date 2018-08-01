@@ -132,7 +132,7 @@ class ClientDetail: UIViewController {
  
     func setUI() {
         clientNameLabel.text = "\(detailClient!.firstName) \(detailClient!.lastName)"
-        sessionsTrainedLabel.text = String(detailClient!.sessionsTrained)
+        sessionsTrainedLabel.text = String(describing: detailClient!.sessionsTrained)
     }
 
 
